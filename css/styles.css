@@ -1,0 +1,180 @@
+.one{
+    height: 100vh;
+ 
+}
+
+.two{
+    height: 100vh;
+    
+    
+}
+.table{
+    position: fixed;
+    margin-top: 12%;  
+}
+
+.text{
+    font-size: 25px;
+}
+
+a{
+    border-color:teal  !important;
+}
+a::after{
+    border-color: teal  !important;
+  
+}
+a:hover{
+    color: teal  !important;
+  
+}
+a:active{
+    color: teal  !important;
+}
+
+.table a {
+    font-size: 20px;
+    margin: 20px;
+}
+nav{
+ background-color: black;
+}
+.move{
+    margin-top: 30%;
+}
+
+.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
+
+  .css-typing p {
+    border-right: .15em solid black;
+    
+    font-size: 25px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing p:nth-child(1) {
+    width: 3.3em;
+    -webkit-animation: type 1s steps(10, end);
+    animation: type 1s steps(10, end);
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 20.5em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(30, end);
+    animation: type2 2s steps(30, end);
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  .css-typing p:nth-child(3) {
+    width: 35.3em;
+    opacity: 0;
+    -webkit-animation: type3 3s steps(40, end) ;
+    animation: type3 3s steps(40, end);
+    -webkit-animation-delay: 4s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid black;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid black;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid black;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid black;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;}
+      49.9% {
+        border-right: .15em solid black;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
