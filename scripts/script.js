@@ -1,5 +1,7 @@
 $(document).ready(function(){
     $('.scrollspy').scrollSpy();
+    $('.collapsible').collapsible();
+    $('.carousel').carousel();
   });
 
 
@@ -10,4 +12,3 @@ $(document).ready(function(){
     });
   });
 
-  
