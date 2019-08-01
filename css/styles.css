@@ -68,6 +68,9 @@ nav{
     background-color: #fff !important;
     transition: background-color 200ms linear;
   }
+.hide{
+  visibility: hidden;
+}
 
   .css-typing p {
     border-right: .15em solid black;
